@@ -57,24 +57,7 @@
                 <!--/a-->
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <!--div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div-->
+           
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -96,8 +79,7 @@
                             <br/>
                             <strong>... e muito mais!</strong></p>     
 
-                         <a data-aos="fade-up" href="https://pagseguro.uol.com.br/checkout/nc/cart.jhtml?s=4cc321579cfa72605420108d40eaae3e4d7e167f55121d691c50affaa6204f6fa83ccbf2b430ee08#rmcl" class="btn btn-default btn-lg"><i class="fa fa-ticket" aria-hidden="true"></i> COMPRE JÁ O SEU INGRESSO</a>
-                   
+                         <a href="#" data-aos="fade-up" data-toggle="modal" data-target="#ingressos" class="btn btn-default btn-lg"><i class="fa fa-ticket" aria-hidden="true"></i> COMPRE JÁ O SEU INGRESSO</a>                   
                        
                     </div>
                 </div>
@@ -229,10 +211,7 @@
 
              <div class="faixa"></div>
 
-             <div class="owl-carousel" data-aos="fade-up">
-                 <div class="item">
-                    <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=4nv1vSyULpk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0"><img src="http://remixed.com.br/terra/img/prev-terra.png" /></a>    
-                  </div>   
+             <div class="owl-carousel" data-aos="fade-up">                 
                     <div class="item">
                       <a data-fancybox="gallery" href="http://remixed.com.br/terra/img/001.jpg"><img src="http://remixed.com.br/terra/img/001_t.jpg" alt=""></a>
                   </div>
@@ -263,16 +242,9 @@
                   <div class="item">
                       <a data-fancybox="gallery" href="http://remixed.com.br/terra/img/010.jpg"><img src="http://remixed.com.br/terra/img/010_t.jpg" alt=""></a>
                   </div>
-
-
-
-                 <!--div class="item">
-                      <a data-fancybox="gallery" data-srcset="https://farm9.staticflickr.com/8389/29609788601_50dddcf435_k_d.jpg 2048w, https://c1.staticflickr.com/9/8389/29609788601_c0191243ff_b.jpg 1024w" data-width="2048" data-height="1024" data-caption="<b>Sparks Lake, Oregon</b><br />Author: <a href=&quot;https://www.flickr.com/photos/billdpix/&quot;>Bill Devlin</a>" href="https://farm9.staticflickr.com/8389/29609788601_50dddcf435_k_d.jpg"><img src="https://farm9.staticflickr.com/8389/29609788601_c0191243ff_z_d.jpg" alt=""></a>
-                  </div>
-                    <div class="item">
-                      <a data-fancybox="gallery" data-srcset="https://farm1.staticflickr.com/560/31434966252_2888c3475a_o_d.jpg 1400w, https://farm1.staticflickr.com/560/31434966252_8e1bc946da_b_d.jpg 1024w" data-width="1400" data-height="934" data-caption="<b>The Sundown</b><br />Author: <a href=&quot;https://www.flickr.com/photos/126334042@N08/&quot;>Artur Stanisz</a>" href="https://farm1.staticflickr.com/560/31434966252_2888c3475a_o_d.jpg"><img src="https://farm1.staticflickr.com/560/31434966252_8e1bc946da_m_d.jpg" alt=""></a>
-                  </div-->
-                                 
+                   <div class="item">
+                    <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=4nv1vSyULpk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0"><img src="http://remixed.com.br/terra/img/prev-terra.png" /></a>    
+                  </div>                                  
                   
                 </div>
             </div>
@@ -302,13 +274,56 @@
                     <h4 class="countdown">Faltam <span id="clock"></span></h4>
                 </div>
                 <div class="col-sm-3">
-                    <a href="https://pagseguro.uol.com.br/checkout/nc/cart.jhtml?s=4cc321579cfa72605420108d40eaae3e4d7e167f55121d691c50affaa6204f6fa83ccbf2b430ee08#rmcl" class="btn btn-default btn-lg"><i class="fa fa-ticket" aria-hidden="true"></i> Comprar Ingresso</a>
+                     <a href="#" data-aos="fade-up" data-toggle="modal" data-target="#ingressos" class="btn btn-default btn-lg"></i> Comprar Ingresso</a>
                 </div>
             </div>
         </div>        
     </div>
 
 
+ 
+     <!-- Modal -->
+      <div class="modal fade" id="ingressos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="img/fim-de-semana.jpg" class="img-responsive" />
+                        <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" style="text-align:center;">
+<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+<input type="hidden" name="itemCode" value="D68C22030D0D6D8FF4FD9FBB95C2AD0B">
+<input type="hidden" name="iot" value="button">
+<input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!">
+</form>
+                        
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/todos-os-dias.jpg" class="img-responsive" />
+                        <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" style="text-align:center;">
+                        <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                        <input type="hidden" name="itemCode" value="F934BB7BA5A525BCC46C0F82143D4DD5">
+                        <input type="hidden" name="iot" value="button">
+                        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!">
+                        </form>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/combo.jpg" class="img-responsive"/>
+                        <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+<input type="hidden" name="itemCode" value="8438DE6BC8C8D4B3345FAFB11689D8E8">
+<input type="hidden" name="iot" value="button">
+<input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!">
+</form>
+                    </div>
+                </div>
+                      
+              </div>
+          </div>
+        </div>
+      </div> 
    
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
@@ -359,7 +374,7 @@ $( document ).ready(function() {
         margin:10,
         nav:false,
         center: true,
-        items:2,
+        items:1,
         lazyLoad: true,
         nav:true
     })
